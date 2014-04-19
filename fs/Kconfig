@@ -173,6 +173,13 @@ config HUGETLBFS
 
 	  If unsure, say N.
 
+config DYNAMIC_FSYNC
+       bool "dynamic file sync control"
+       default n
+       help
+       An experimental file sync control using Android's early suspend / late resume drivers
+ 
+
 config HUGETLB_PAGE
 	def_bool HUGETLBFS
 
