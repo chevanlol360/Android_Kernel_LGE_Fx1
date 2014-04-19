@@ -3548,6 +3548,7 @@ static struct rcg_clk gfx3d_clk = {
 	.freq_tbl = clk_tbl_gfx3d_8960_oc,
 #else
 	.freq_tbl = clk_tbl_gfx3d_8960,
+#endif
 	.bank_info = &bmnd_info_gfx3d,
 	.current_freq = &rcg_dummy_freq,
 	.c = {

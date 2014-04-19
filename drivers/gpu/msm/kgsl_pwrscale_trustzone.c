@@ -233,6 +233,7 @@ static void tz_idle(struct kgsl_device *device, struct kgsl_pwrscale *pwrscale)
  		//pr_info("TZ idle stat: %d, TZ PL: %d, TZ out: %d\n",
   		//		idle, pwr->active_pwrlevel, val);
   	}
+}
 static void tz_busy(struct kgsl_device *device,
 	struct kgsl_pwrscale *pwrscale)
 {

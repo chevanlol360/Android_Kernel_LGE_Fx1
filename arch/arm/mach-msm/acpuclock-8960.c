@@ -317,7 +317,7 @@ static struct acpuclk_krait_params acpuclk_8960_params __initdata = {
 	.l2_freq_tbl_size = sizeof(l2_freq_tbl),
 	.bus_scale = &bus_scale_data,
 	.pte_efuse_phys = 0x007000C0,
-	.stby_khz = 384000,
+	.stby_khz = 316000,
 #ifdef CONFIG_MACH_LGE
 	.pvs_tables_lge_factory = pvs_tables_lge_factory,
 #endif
