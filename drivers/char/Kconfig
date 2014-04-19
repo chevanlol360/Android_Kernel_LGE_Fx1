@@ -672,7 +672,7 @@ config CSDIO_DEVICE_ID
 	  Enter device id for targeted sdio device, this may be overwritten by
 	  module parameters.
 
-#####################SIMPLICITYXL ADDITIONS#####################
+#####################SIMPLICITY ADDITIONS#####################
 config FRANDOM
  	bool "/dev/frandom device support"
  	default y
