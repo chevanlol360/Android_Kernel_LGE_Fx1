@@ -323,9 +323,9 @@ on boot
     chown system system /sys/bus/i2c/devices/5-0032/led_pattern
 
 #insmod modules
-    chown system system /lib/modules/lm3530_bl_remap.ko	
-	chmod 0755 /lib/modules/lm3530_bl_remap.ko
-	insmod /system/lib/modules/lm3530_bl_remap.ko
+    chown system system /lib/modules/tun.ko	
+	chmod 0755 /lib/modules/tun.ko
+	insmod /system/lib/modules/tun.ko
 
 # LGE_ERI_DOWNLOAD
     mkdir /data/eri
